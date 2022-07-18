@@ -13,8 +13,9 @@ Tech Stack :
 - Express.js - deployed on heroku
     - https://whatsapp-clone-test.herokuapp.com/
     - https://github.com/jain-somya/whatsapp-clone-server
-- Firestore Database
-- Twilio service for messaging
+- Atlas MongoDB Database
+- Pusher Service to get messages in realtime
+- Firebase Authentication // To-do 
 
 APIs 
 /messages/sync - returns all messages 
@@ -24,3 +25,6 @@ APIs
 Other resources used:
 https://mui.com/
 https://www.tailwind-kit.com/
+
+
+------ Whitelist IP on mongodb if not working -------
