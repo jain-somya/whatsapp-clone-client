@@ -3,7 +3,7 @@ import './Chat.css'
 
 function Message({ message }) {
   return (
-    <p
+    <p 
       className={`chat__message ${
         message.received ? "":" chat__messageReceived" 
       }`}

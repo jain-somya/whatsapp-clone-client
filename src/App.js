@@ -11,7 +11,7 @@ function App() {
       setMessages(res.data);
     });
   }, []);
-  useEffect(() => {
+  useEffect(() => { 
     const pusher = new Pusher("3215718666735a141589", {
       cluster: "ap2",
     });
